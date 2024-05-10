@@ -6,7 +6,7 @@ export class DeleteItemController {
     const item_id = req.query.item_id as string;
 
     const deleteItemService = new DeleteItemService();
-    const item = await deleteItemService.execute(item_id);
+    const item = await deleteItemService.execute({item_id});
     return res.json(item);
   }
 }

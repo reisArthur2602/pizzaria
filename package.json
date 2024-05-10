@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "vercel-build":"npx prisma migrate deploy"
+    "start" :"tsc  src/server.ts"
   },
   "keywords": [],
   "author": "",
