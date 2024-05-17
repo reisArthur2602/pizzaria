@@ -1,6 +1,6 @@
 # Simplizza - Backend
 
- Backend do sistema de gestão de pedidos . 
+A API de Sistema de Gestão de Pedidos fornece funcionalidades abrangentes para gerenciar usuários, categorias de produtos, produtos e pedidos de uma pizzaria. 
 
 ## Funcionalidades
 
